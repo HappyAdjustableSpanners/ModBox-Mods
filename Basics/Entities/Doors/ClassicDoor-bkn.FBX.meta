@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 91dbf69b9acf2d0428d1d132d3cc67db
+timeCreated: 1468206748
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ClassicDoor
+    100002: //RootNode
+    100004: ClassicDoor_Part_1
+    100006: ClassicDoor_Part_10
+    100008: ClassicDoor_Part_2
+    100010: ClassicDoor_Part_3
+    100012: ClassicDoor_Part_4
+    100014: ClassicDoor_Part_5
+    100016: ClassicDoor_Part_6
+    100018: ClassicDoor_Part_7
+    100020: ClassicDoor_Part_8
+    100022: ClassicDoor_Part_9
+    100024: Handle
+    100026: Object004
+    400000: ClassicDoor
+    400002: //RootNode
+    400004: ClassicDoor_Part_1
+    400006: ClassicDoor_Part_10
+    400008: ClassicDoor_Part_2
+    400010: ClassicDoor_Part_3
+    400012: ClassicDoor_Part_4
+    400014: ClassicDoor_Part_5
+    400016: ClassicDoor_Part_6
+    400018: ClassicDoor_Part_7
+    400020: ClassicDoor_Part_8
+    400022: ClassicDoor_Part_9
+    400024: Handle
+    400026: Object004
+    2300000: ClassicDoor_Part_1
+    2300002: ClassicDoor_Part_10
+    2300004: ClassicDoor_Part_2
+    2300006: ClassicDoor_Part_3
+    2300008: ClassicDoor_Part_4
+    2300010: ClassicDoor_Part_5
+    2300012: ClassicDoor_Part_6
+    2300014: ClassicDoor_Part_7
+    2300016: ClassicDoor_Part_8
+    2300018: ClassicDoor_Part_9
+    2300020: Handle
+    2300022: Object004
+    3300000: ClassicDoor_Part_1
+    3300002: ClassicDoor_Part_10
+    3300004: ClassicDoor_Part_2
+    3300006: ClassicDoor_Part_3
+    3300008: ClassicDoor_Part_4
+    3300010: ClassicDoor_Part_5
+    3300012: ClassicDoor_Part_6
+    3300014: ClassicDoor_Part_7
+    3300016: ClassicDoor_Part_8
+    3300018: ClassicDoor_Part_9
+    3300020: Handle
+    3300022: Object004
+    4300000: Handle
+    4300002: Object004
+    4300004: ClassicDoor_Part_1
+    4300006: ClassicDoor_Part_2
+    4300008: ClassicDoor_Part_3
+    4300010: ClassicDoor_Part_4
+    4300012: ClassicDoor_Part_5
+    4300014: ClassicDoor_Part_6
+    4300016: ClassicDoor_Part_7
+    4300018: ClassicDoor_Part_8
+    4300020: ClassicDoor_Part_9
+    4300022: ClassicDoor_Part_10
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

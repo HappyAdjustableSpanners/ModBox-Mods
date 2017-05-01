@@ -1,0 +1,425 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497996}
+  - 114: {fileID: 11448306}
+  m_Layer: 0
+  m_Name: modmetadata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497996
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.294922, y: 1.2272911, z: 0.83617824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11448306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36939c46eb2fab74f82bef1aee41cf6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModMetaData:
+    ModName: basics
+    ModFullName: Modbox Basics
+    Version: 0
+    HasScripting: 0
+    BreakCompatibilityVersion: 0
+    ExcludeFromBuild: 0
+    Desc: "\rA large variety of basic toys and items. Everything you need to start
+      creating"
+    Icon: {fileID: 2800000, guid: 55c0a82313c688f41a4a5e863db3a880, type: 3}
+    InstantiateGameObjects: []
+    ModTypes: 
+    EntCategories: []
+    EnvironmentOptions:
+    - {fileID: 11447206, guid: e8cba23811f1d2f43abfc6196b8b5923, type: 2}
+    - {fileID: 11447206, guid: 06c8516e92a91ae4e9249cb340c5caab, type: 2}
+    - {fileID: 11447206, guid: d20968af97d42594790a7b6f4a61d14c, type: 2}
+    - {fileID: 11447206, guid: 0ffe0e600a408444ea5a6a6101619a3c, type: 2}
+    IsCoreMod: 1
+    MainModUIWeight: -1000
+    ForCoreMods: []
+    BuildNewUIWeight: 0
+    WorkshopVisiblity: 0
+    Authors: []
+    IncludeSource: 0
+    PublishedFileId: 0
+    BuildUncompressed: 0
+    IgnoreDirectories: []
+    IgnoreAllSubdirectories: 0
+    LoadAllFiles: 0
+    InDevelopment: 0
+    BreakAllModsCompatibilityVersion: 0.24
+    ModboxVersion: 0.501
+    ModboxSDKVersion: 71
+    DLLMode: 0
+    ScriptsRenamed: 0
+    OldScriptsMetaData: []
+    Paths_Entities:
+    - assets/mods/basics/entities/balloon/balloon.prefab
+    - assets/mods/basics/entities/barrel/barrel.prefab
+    - assets/mods/basics/entities/barrel/barrelexplosive.prefab
+    - assets/mods/basics/entities/barrel/woodbarrel.prefab
+    - assets/mods/basics/entities/barrel/woodbarrelexplosive.prefab
+    - assets/mods/basics/entities/baseballbat/baseballbat.prefab
+    - assets/mods/basics/entities/basketball/basketball.prefab
+    - assets/mods/basics/entities/basketballhoop/basketballhoop.prefab
+    - assets/mods/basics/entities/bottle/bottle.prefab
+    - assets/mods/basics/entities/bow/longbowarrow.prefab
+    - assets/mods/basics/entities/bow/longbowarrow_exploding.prefab
+    - assets/mods/basics/entities/bow/longbow_ent.prefab
+    - assets/mods/basics/entities/bow/longbow_ent_failed.prefab
+    - assets/mods/basics/entities/bowlingball/bowlingball.prefab
+    - assets/mods/basics/entities/bowlingpin/bowlingpin.prefab
+    - assets/mods/basics/entities/boxingbag/boxingbag.prefab
+    - assets/mods/basics/entities/boxinggloves/boxinggloves.prefab
+    - assets/mods/basics/entities/button/buttonarcade.prefab
+    - assets/mods/basics/entities/button/buttonround.prefab
+    - assets/mods/basics/entities/chainsaw/chainsaw.prefab
+    - assets/mods/basics/entities/clock/clock.prefab
+    - assets/mods/basics/entities/clock/dialgradient.prefab
+    - assets/mods/basics/entities/conveyorbelt/conveyorbelt.prefab
+    - assets/mods/basics/entities/crate/crate.prefab
+    - assets/mods/basics/entities/crossbow/crossbow.prefab
+    - assets/mods/basics/entities/crossbowbolt/crossbowbolt.prefab
+    - assets/mods/basics/entities/crossbowbolt/foambolt.prefab
+    - assets/mods/basics/entities/crowbar/crowbar.prefab
+    - assets/mods/basics/entities/darts/dart.prefab
+    - assets/mods/basics/entities/darts/dartboard.prefab
+    - assets/mods/basics/entities/detonator/detonator.prefab
+    - assets/mods/basics/entities/dial/dial.prefab
+    - assets/mods/basics/entities/die/die.prefab
+    - assets/mods/basics/entities/domino/domino.prefab
+    - assets/mods/basics/entities/doors/classicdoor.prefab
+    - assets/mods/basics/entities/doors/glassdoor.prefab
+    - assets/mods/basics/entities/doors/halfarchdoor.prefab
+    - assets/mods/basics/entities/doors/whitedoor.prefab
+    - assets/mods/basics/entities/doors/wooddoor_unfinished.prefab
+    - assets/mods/basics/entities/doors/woodgate_unfinished.prefab
+    - assets/mods/basics/entities/firework/firework.prefab
+    - assets/mods/basics/entities/football/football.prefab
+    - assets/mods/basics/entities/golfball/golfball.prefab
+    - assets/mods/basics/entities/golftee/golftee.prefab
+    - assets/mods/basics/entities/grenade/grenade.prefab
+    - assets/mods/basics/entities/hammer/hammer.prefab
+    - assets/mods/basics/entities/handles/handlebat.prefab
+    - assets/mods/basics/entities/handles/handlegun.prefab
+    - assets/mods/basics/entities/handles/handlehilt.prefab
+    - assets/mods/basics/entities/handles/handlerod.prefab
+    - assets/mods/basics/entities/handles/handletool.prefab
+    - assets/mods/basics/entities/hatchet/hatchet.prefab
+    - assets/mods/basics/entities/katana/katana.prefab
+    - assets/mods/basics/entities/lance/lance.prefab
+    - assets/mods/basics/entities/mace/mace.prefab
+    - assets/mods/basics/entities/mallet/mallet.prefab
+    - assets/mods/basics/entities/marble/marble.prefab
+    - assets/mods/basics/entities/mug/mug.prefab
+    - assets/mods/basics/entities/oscillator/oscillator.prefab
+    - assets/mods/basics/entities/pingpongball/pingpongball.prefab
+    - assets/mods/basics/entities/pingpongpaddle/pingpongpaddle.prefab
+    - assets/mods/basics/entities/pipecurvelarge/pipelargecurve.prefab
+    - assets/mods/basics/entities/pipecurvesmall/pipesmallcurve.prefab
+    - assets/mods/basics/entities/pipestraight/pipestraight.prefab
+    - assets/mods/basics/entities/plank/plank.prefab
+    - assets/mods/basics/entities/putter/putter.prefab
+    - assets/mods/basics/entities/raygun/raygun.prefab
+    - assets/mods/basics/entities/revolver/revolver.prefab
+    - assets/mods/basics/entities/rod/rod.prefab
+    - assets/mods/basics/entities/rodcross/rodcross.prefab
+    - assets/mods/basics/entities/rodspin/rodspin.prefab
+    - assets/mods/basics/entities/sawblade/sawblade.prefab
+    - assets/mods/basics/entities/shield/shield.prefab
+    - assets/mods/basics/entities/shuriken/shuriken.prefab
+    - assets/mods/basics/entities/skateboard/skateboard.prefab
+    - assets/mods/basics/entities/slingshot/slingshot.prefab
+    - assets/mods/basics/entities/slingshot/slingshotpebble.prefab
+    - assets/mods/basics/entities/slingshot/slingshotpebbleexploding.prefab
+    - assets/mods/basics/entities/sodacan/sodacan.prefab
+    - assets/mods/basics/entities/spawneffects/aura_blue.prefab
+    - assets/mods/basics/entities/spawneffects/aura_purple.prefab
+    - assets/mods/basics/entities/spawneffects/aura_red.prefab
+    - assets/mods/basics/entities/spawneffects/explosion_cloud.prefab
+    - assets/mods/basics/entities/spawneffects/explosion_flash.prefab
+    - assets/mods/basics/entities/spawneffects/explosion_simple.prefab
+    - assets/mods/basics/entities/spawneffects/explosion_small.prefab
+    - assets/mods/basics/entities/spawneffects/explosion_star.prefab
+    - assets/mods/basics/entities/spawneffects/flash.prefab
+    - assets/mods/basics/entities/spawneffects/glow_blue.prefab
+    - assets/mods/basics/entities/spawneffects/glow_green.prefab
+    - assets/mods/basics/entities/spawneffects/glow_red.prefab
+    - assets/mods/basics/entities/spawneffects/glow_white.prefab
+    - assets/mods/basics/entities/spawneffects/glow_yellow.prefab
+    - assets/mods/basics/entities/spawneffects/smokedark.prefab
+    - assets/mods/basics/entities/spawneffects/smokelight.prefab
+    - assets/mods/basics/entities/spawneffects/smokemid.prefab
+    - assets/mods/basics/entities/spawneffects/smokepuff.prefab
+    - assets/mods/basics/entities/spawneffects/sparks_green.prefab
+    - assets/mods/basics/entities/spawneffects/sparks_yellow.prefab
+    - assets/mods/basics/entities/spawneffects/starflash.prefab
+    - assets/mods/basics/entities/spawneffects/sunexplosion.prefab
+    - assets/mods/basics/entities/spawneffects/toonbang_blue.prefab
+    - assets/mods/basics/entities/spawneffects/toonbang_green.prefab
+    - assets/mods/basics/entities/spawneffects/toonbang_red.prefab
+    - assets/mods/basics/entities/spawneffects/toonbang_white.prefab
+    - assets/mods/basics/entities/spawneffects/toonbang_yellow.prefab
+    - assets/mods/basics/entities/spawneffects/toonhit.prefab
+    - assets/mods/basics/entities/spawneffects/toonsmokepuff.prefab
+    - assets/mods/basics/entities/spawneffects/toontext_boom.prefab
+    - assets/mods/basics/entities/spawneffects/toontext_zap.prefab
+    - assets/mods/basics/entities/spinningcog/spinningcog.prefab
+    - assets/mods/basics/entities/switch/lightswitch.prefab
+    - assets/mods/basics/entities/sword/sword.prefab
+    - assets/mods/basics/entities/targetbody/targetbody.prefab
+    - assets/mods/basics/entities/targetcircle/targetcircle.prefab
+    - assets/mods/basics/entities/thruster/thruster.prefab
+    - assets/mods/basics/entities/token/token.prefab
+    - assets/mods/basics/entities/trampoline/trampoline.prefab
+    - assets/mods/basics/entities/walls/wall brick arch.prefab
+    - assets/mods/basics/entities/walls/wall brick.prefab
+    - assets/mods/basics/entities/walls/wall palisade.prefab
+    - assets/mods/basics/entities/walls/wall wood.prefab
+    - assets/mods/basics/entities/wheel/wheel.prefab
+    - assets/mods/basics/entities/wheel/wheel2.prefab
+    - assets/mods/basics/npcs/basicshooter.prefab
+    - assets/mods/basics/npcs/boxer.prefab
+    - assets/mods/basics/npcs/swordfighter.prefab
+    - assets/mods/basics/npcs/zombie.prefab
+    Paths_EntityNames:
+    - Balloon
+    - Barrel
+    - BarrelExplosive
+    - WoodBarrel
+    - WoodBarrelExplosive
+    - BaseballBat
+    - Basketball
+    - BasketballHoop
+    - Bottle
+    - LongbowArrow
+    - LongbowArrow_Exploding
+    - Longbow_ent
+    - Longbow_ent_failed
+    - BowlingBall
+    - BowlingPin
+    - BoxingBag
+    - BoxingGloves
+    - ButtonArcade
+    - ButtonRound
+    - Chainsaw
+    - Clock
+    - DialGradient
+    - ConveyorBelt
+    - Crate
+    - Crossbow
+    - CrossbowBolt
+    - FoamBolt
+    - Crowbar
+    - Dart
+    - Dartboard
+    - Detonator
+    - Dial
+    - Die
+    - Domino
+    - ClassicDoor
+    - GlassDoor
+    - HalfArchDoor
+    - WhiteDoor
+    - WoodDoor_UNFINISHED
+    - WoodGate_UNFINISHED
+    - Firework
+    - Football
+    - GolfBall
+    - GolfTee
+    - Grenade
+    - Hammer
+    - HandleBat
+    - HandleGun
+    - HandleHilt
+    - HandleRod
+    - HandleTool
+    - Hatchet
+    - Katana
+    - Lance
+    - Mace
+    - Mallet
+    - Marble
+    - Mug
+    - Oscillator
+    - PingpongBall
+    - PingpongPaddle
+    - PipeLargeCurve
+    - PipeSmallCurve
+    - PipeStraight
+    - Plank
+    - Putter
+    - Raygun
+    - Revolver
+    - Rod
+    - RodCross
+    - RodSpin
+    - Sawblade
+    - Shield
+    - Shuriken
+    - Skateboard
+    - Slingshot
+    - SlingshotPebble
+    - SlingshotPebbleExploding
+    - SodaCan
+    - Aura_Blue
+    - Aura_Purple
+    - Aura_Red
+    - Explosion_Cloud
+    - Explosion_Flash
+    - Explosion_Simple
+    - Explosion_Small
+    - Explosion_Star
+    - Flash
+    - Glow_Blue
+    - Glow_Green
+    - Glow_Red
+    - Glow_White
+    - Glow_Yellow
+    - SmokeDark
+    - SmokeLight
+    - SmokeMid
+    - SmokePuff
+    - Sparks_Green
+    - Sparks_Yellow
+    - StarFlash
+    - SunExplosion
+    - ToonBang_Blue
+    - ToonBang_Green
+    - ToonBang_Red
+    - ToonBang_White
+    - ToonBang_Yellow
+    - ToonHit
+    - ToonSmokePuff
+    - ToonText_Boom
+    - ToonText_Zap
+    - SpinningCog
+    - LightSwitch
+    - Sword
+    - TargetBody
+    - TargetCircle
+    - Thruster
+    - Token
+    - Trampoline
+    - Wall Brick Arch
+    - Wall Brick
+    - Wall Palisade
+    - Wall Wood
+    - Wheel
+    - Wheel2
+    - BasicShooter
+    - Boxer
+    - SwordFighter
+    - Zombie
+    Paths_LoadAtStart:
+    - assets/mods/basics/avatars/basicboxer.prefab
+    - assets/mods/basics/avatars/basicswordfighter.prefab
+    - assets/mods/basics/avatars/basiczombie.prefab
+    - assets/mods/basics/modboxphysicsmaterials/balloon.prefab
+    - assets/mods/basics/modboxphysicsmaterials/basketball.prefab
+    - assets/mods/basics/modboxphysicsmaterials/football.prefab
+    - assets/mods/basics/modboxphysicsmaterials/glasspipe.prefab
+    - assets/mods/basics/modboxphysicsmaterials/golfball.prefab
+    - assets/mods/basics/modboxphysicsmaterials/pingpongball.prefab
+    - assets/mods/basics/modboxphysicsmaterials/poolball.prefab
+    - assets/mods/basics/modboxphysicsmaterials/trampoline.prefab
+    - assets/mods/basics/physicssounds/balloon.prefab
+    - assets/mods/basics/physicssounds/basketball.prefab
+    - assets/mods/basics/physicssounds/boxingbag.prefab
+    - assets/mods/basics/physicssounds/football.prefab
+    - assets/mods/basics/physicssounds/golfball.prefab
+    - assets/mods/basics/physicssounds/pingpongball.prefab
+    EntityCount: 128
+    ToolCount: 0
+    MaterialCount: 0
+    ModelCount: 3
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.ModName
+      value: core
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.Desc
+      value: Includes all Modbox core entities
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.bundleName
+      value: core
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.ModFullName
+      value: Modbox Core
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[0].Name
+      value: Control
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[0].Icon
+      value: 
+      objectReference: {fileID: 21300000, guid: dd39870d2954fcc4bab728c57e40b803,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[1].Name
+      value: Connectors
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[1].Icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 56cb5c9004e52814c982d8a43d8311ee,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[0].UIWeight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[2].Name
+      value: Walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[2].Icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 4555c2aae761668438380f190e6f2493,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: ModMetaData.EntCategories.Array.data[2].UIWeight
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 187528}
+  m_IsPrefabParent: 1

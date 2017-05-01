@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &109942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 468232}
+  - 114: {fileID: 11490042}
+  m_Layer: 0
+  m_Name: Basketball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &468232
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -310.06934, y: 117.63834, z: 41.758923}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11490042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b14e7a499d5bf547ad5c832c37e0663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PhysicsSoundMaterial: 4
+  MinImpactSoundPeriod: 0.25
+  ImpactSets:
+  - WhenHittingMaterial: -1
+    Impacts:
+    - {fileID: 8300000, guid: 2a0ac5f39ff27c44b889ea7d85b6bf54, type: 3}
+    - {fileID: 8300000, guid: 9f8f2b453e0d449428dbe8a83f877539, type: 3}
+    - {fileID: 8300000, guid: 60907369697f4ad40ae27c80c8dbb82d, type: 3}
+    - {fileID: 8300000, guid: 35d20bc9a8da4f149a64c1e2ad09b91b, type: 3}
+    - {fileID: 8300000, guid: 1246153ba72bcd246ba8b46cad212930, type: 3}
+    - {fileID: 8300000, guid: 3aff2bdbc85d2c744bae2572e985913f, type: 3}
+    - {fileID: 8300000, guid: 8e88387d54d2b364ab7dcfebde128804, type: 3}
+    PlayEvenIfSlower: 0
+    OverrideOtherImpactSound: 0
+    OnBreakingOtherEnt: 0
+    MinOtherBodyVelocity: 0
+    MinBodyVelocity: 0
+  - WhenHittingMaterial: 2
+    Impacts:
+    - {fileID: 8300000, guid: 685da3def759d384a817868fd8e44ef6, type: 3}
+    PlayEvenIfSlower: 0
+    OverrideOtherImpactSound: 0
+    OnBreakingOtherEnt: 0
+    MinOtherBodyVelocity: 0
+    MinBodyVelocity: 0
+  - WhenHittingMaterial: 2
+    Impacts:
+    - {fileID: 8300000, guid: b1cbb8ea1efb3c34e9ccbb16be9ffad7, type: 3}
+    PlayEvenIfSlower: 0
+    OverrideOtherImpactSound: 0
+    OnBreakingOtherEnt: 0
+    MinOtherBodyVelocity: 10
+    MinBodyVelocity: 0
+  FallbackMaterial: 4
+  PitchRandom:
+    Min: 0.75
+    Max: 1.25
+  RelativeVelocityThreshold:
+    Min: 1
+    Max: 5
+  BreakSounds: []
+  UseImpactSetsOf: {fileID: 0}
+  ScaleFixed: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].Impacts.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].WhenHittingMaterial
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MinTriggerPeriod
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].WhenHittingMaterial
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: RelativeVelocityThreshold.Min
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: RelativeVelocityThreshold.Max
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 685da3def759d384a817868fd8e44ef6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: af2da115d42e32641a164181bbd88ee7, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 05d8a616bbaef6642af840dc880bcbd2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 02b30837ece6f41478017b03eafa5c11, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: b09ae647b2935a8468f393fb910970b8, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].WhenHittingMaterial
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].Impacts.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: b1cbb8ea1efb3c34e9ccbb16be9ffad7, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].Impacts.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 57d16b0b78483ab41b8e3df634f1e223, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].Impacts.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: db9b5d1b73592c84483d812421922982, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].Impacts.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5e00459b4da2cb944bf653bf97849419, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 45c375a46bdcdeb48805779b9d11fe6c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: af2da115d42e32641a164181bbd88ee7, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 05d8a616bbaef6642af840dc880bcbd2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 02b30837ece6f41478017b03eafa5c11, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PhysicsSoundMaterial
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: d00bc208711df704a8f6912b389381a9, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: cd93437d9556b6a41aaa5b6e067615f2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[1].Impacts.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: b17eaa7da7e7990479377fab8ee43b28, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].OnlyIfHitWithMetalToy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[2].MinOtherBodyVelocity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: b09ae647b2935a8468f393fb910970b8, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: d00bc208711df704a8f6912b389381a9, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: cd93437d9556b6a41aaa5b6e067615f2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ImpactSets.Array.data[0].Impacts.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: b17eaa7da7e7990479377fab8ee43b28, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 109942}
+  m_IsPrefabParent: 1

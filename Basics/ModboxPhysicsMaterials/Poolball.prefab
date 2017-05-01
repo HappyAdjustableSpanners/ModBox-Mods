@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 456844}
+  - 114: {fileID: 11493158}
+  m_Layer: 0
+  m_Name: Poolball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456844
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.5518465, y: -4.0180535, z: 10.2365675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11493158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b35eb583bedf348a6c53f4b76befe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PhysicsMaterial: {fileID: 13400000, guid: bf669cf8a7bcd0e4ab7ce5c5574b1f7f, type: 2}
+  Density: 80
+  BreakForce: 0
+  CutForce: 10
+  ShatterGenerationLimit: 3
+  PhysicsSoundType: Plastic
+  BreakParticle: {fileID: 100002, guid: c9c77dbee87d4e84c84846120e088ceb, type: 2}
+  BulletHit: {fileID: 100002, guid: 2b14ad2e68949644d9f75182dcc4a9ee, type: 2}
+  BreakVertexColor: {r: 0, g: 0, b: 0, a: 1}
+  CutParticleEffect: {fileID: 0}
+  ScaleFixed3: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Material
+      value: 
+      objectReference: {fileID: 2100000, guid: d42917b000fb60a47b6c07c04e9e0083, type: 2}
+    - target: {fileID: 0}
+      propertyPath: DensityType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CollisionSoundType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ShatterForce
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: RayColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: RayColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: RayColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: RayColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BreakForce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: UIIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Density
+      value: .400000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: NotIngameOption
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PhysicsMaterial
+      value: 
+      objectReference: {fileID: 13400000, guid: bf669cf8a7bcd0e4ab7ce5c5574b1f7f,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: BulletHit
+      value: 
+      objectReference: {fileID: 100002, guid: 2b14ad2e68949644d9f75182dcc4a9ee, type: 2}
+    - target: {fileID: 0}
+      propertyPath: BreakParticle
+      value: 
+      objectReference: {fileID: 100002, guid: c9c77dbee87d4e84c84846120e088ceb, type: 2}
+    - target: {fileID: 0}
+      propertyPath: BreakVertexColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BreakVertexColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BreakVertexColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CutForce
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PhysicsSoundType
+      value: Plastic
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 146592}
+  m_IsPrefabParent: 1

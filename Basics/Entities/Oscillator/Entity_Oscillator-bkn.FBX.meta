@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 84a9c51452f18f440b64bf1a510c2ec6
+timeCreated: 1448001585
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Glass_Part_1
+    100004: Glass_Part_2
+    100006: Glass_Part_3
+    100008: Glass_Part_4
+    100010: Glass_Part_5
+    100012: Glass_Part_6
+    100014: Object004_Part_1
+    100016: Object004_Part_2
+    100018: Object004_Part_3
+    100020: Oscillator_Part_1
+    100022: Oscillator_Part_2
+    100024: Oscillator_Part_3
+    100026: Pump_Part_1
+    100028: Pump_Part_2
+    100030: Pump_Part_3
+    400000: //RootNode
+    400002: Glass_Part_1
+    400004: Glass_Part_2
+    400006: Glass_Part_3
+    400008: Glass_Part_4
+    400010: Glass_Part_5
+    400012: Glass_Part_6
+    400014: Object004_Part_1
+    400016: Object004_Part_2
+    400018: Object004_Part_3
+    400020: Oscillator_Part_1
+    400022: Oscillator_Part_2
+    400024: Oscillator_Part_3
+    400026: Pump_Part_1
+    400028: Pump_Part_2
+    400030: Pump_Part_3
+    2300000: Glass_Part_1
+    2300002: Glass_Part_2
+    2300004: Glass_Part_3
+    2300006: Glass_Part_4
+    2300008: Glass_Part_5
+    2300010: Glass_Part_6
+    2300012: Object004_Part_1
+    2300014: Object004_Part_2
+    2300016: Object004_Part_3
+    2300018: Oscillator_Part_1
+    2300020: Oscillator_Part_2
+    2300022: Oscillator_Part_3
+    2300024: Pump_Part_1
+    2300026: Pump_Part_2
+    2300028: Pump_Part_3
+    3300000: Glass_Part_1
+    3300002: Glass_Part_2
+    3300004: Glass_Part_3
+    3300006: Glass_Part_4
+    3300008: Glass_Part_5
+    3300010: Glass_Part_6
+    3300012: Object004_Part_1
+    3300014: Object004_Part_2
+    3300016: Object004_Part_3
+    3300018: Oscillator_Part_1
+    3300020: Oscillator_Part_2
+    3300022: Oscillator_Part_3
+    3300024: Pump_Part_1
+    3300026: Pump_Part_2
+    3300028: Pump_Part_3
+    4300000: Glass_Part_1
+    4300002: Glass_Part_2
+    4300004: Glass_Part_3
+    4300006: Glass_Part_4
+    4300008: Glass_Part_5
+    4300010: Glass_Part_6
+    4300012: Pump_Part_1
+    4300014: Pump_Part_2
+    4300016: Pump_Part_3
+    4300018: Object004_Part_1
+    4300020: Object004_Part_2
+    4300022: Object004_Part_3
+    4300024: Oscillator_Part_1
+    4300026: Oscillator_Part_2
+    4300028: Oscillator_Part_3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 529285c5a71f1cc49b0c2c4f485b9683
+timeCreated: 1447059871
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Chainsaw
+    100002: ChainsawBlade
+    100004: ChainsawCordHandle
+    100006: Cord
+    100008: //RootNode
+    100010: Tooth
+    100012: Tooth001
+    100014: Tooth002
+    100016: Tooth003
+    100018: Tooth004
+    100020: Tooth005
+    100022: Tooth006
+    100024: Tooth007
+    100026: Tooth008
+    100028: Tooth009
+    100030: Tooth010
+    100032: Tooth011
+    100034: Tooth012
+    100036: Tooth013
+    100038: Tooth014
+    100040: Tooth015
+    100042: Tooth016
+    100044: Tooth017
+    100046: Tooth018
+    100048: Tooth019
+    100050: Tooth020
+    400000: Chainsaw
+    400002: ChainsawBlade
+    400004: ChainsawCordHandle
+    400006: Cord
+    400008: //RootNode
+    400010: Tooth
+    400012: Tooth001
+    400014: Tooth002
+    400016: Tooth003
+    400018: Tooth004
+    400020: Tooth005
+    400022: Tooth006
+    400024: Tooth007
+    400026: Tooth008
+    400028: Tooth009
+    400030: Tooth010
+    400032: Tooth011
+    400034: Tooth012
+    400036: Tooth013
+    400038: Tooth014
+    400040: Tooth015
+    400042: Tooth016
+    400044: Tooth017
+    400046: Tooth018
+    400048: Tooth019
+    400050: Tooth020
+    2300000: Chainsaw
+    2300002: ChainsawBlade
+    2300004: ChainsawCordHandle
+    2300006: Tooth
+    2300008: Tooth001
+    2300010: Tooth002
+    2300012: Tooth003
+    2300014: Tooth004
+    2300016: Tooth005
+    2300018: Tooth006
+    2300020: Tooth007
+    2300022: Tooth008
+    2300024: Tooth009
+    2300026: Tooth010
+    2300028: Tooth011
+    2300030: Tooth012
+    2300032: Tooth013
+    2300034: Tooth014
+    2300036: Tooth015
+    2300038: Tooth016
+    2300040: Tooth017
+    2300042: Tooth018
+    2300044: Tooth019
+    2300046: Tooth020
+    3300000: Chainsaw
+    3300002: ChainsawBlade
+    3300004: ChainsawCordHandle
+    3300006: Tooth
+    3300008: Tooth001
+    3300010: Tooth002
+    3300012: Tooth003
+    3300014: Tooth004
+    3300016: Tooth005
+    3300018: Tooth006
+    3300020: Tooth007
+    3300022: Tooth008
+    3300024: Tooth009
+    3300026: Tooth010
+    3300028: Tooth011
+    3300030: Tooth012
+    3300032: Tooth013
+    3300034: Tooth014
+    3300036: Tooth015
+    3300038: Tooth016
+    3300040: Tooth017
+    3300042: Tooth018
+    3300044: Tooth019
+    3300046: Tooth020
+    4300000: Chainsaw
+    4300002: ChainsawCordHandle
+    4300004: Cord
+    4300006: ChainsawBlade
+    4300008: Tooth
+    4300010: Tooth001
+    4300012: Tooth002
+    4300014: Tooth003
+    4300016: Tooth004
+    4300018: Tooth005
+    4300020: Tooth006
+    4300022: Tooth007
+    4300024: Tooth008
+    4300026: Tooth009
+    4300028: Tooth010
+    4300030: Tooth011
+    4300032: Tooth012
+    4300034: Tooth013
+    4300036: Tooth014
+    4300038: Tooth015
+    4300040: Tooth016
+    4300042: Tooth017
+    4300044: Tooth018
+    4300046: Tooth019
+    4300048: Tooth020
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cord
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chainsaw
+        weight: 1
+      - path: ChainsawBlade
+        weight: 1
+      - path: ChainsawCordHandle
+        weight: 1
+      - path: Cord
+        weight: 1
+      - path: Tooth
+        weight: 1
+      - path: Tooth001
+        weight: 1
+      - path: Tooth002
+        weight: 1
+      - path: Tooth003
+        weight: 1
+      - path: Tooth004
+        weight: 1
+      - path: Tooth005
+        weight: 1
+      - path: Tooth006
+        weight: 1
+      - path: Tooth007
+        weight: 1
+      - path: Tooth008
+        weight: 1
+      - path: Tooth009
+        weight: 1
+      - path: Tooth010
+        weight: 1
+      - path: Tooth011
+        weight: 1
+      - path: Tooth012
+        weight: 1
+      - path: Tooth013
+        weight: 1
+      - path: Tooth014
+        weight: 1
+      - path: Tooth015
+        weight: 1
+      - path: Tooth016
+        weight: 1
+      - path: Tooth017
+        weight: 1
+      - path: Tooth018
+        weight: 1
+      - path: Tooth019
+        weight: 1
+      - path: Tooth020
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

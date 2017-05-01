@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: f5f44e4a375f1cd49912727eeb095472
+timeCreated: 1468207017
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Handle
+    100002: Object003
+    100004: Object004
+    100006: Object005
+    100008: Object006
+    100010: Object007
+    100012: Object008
+    100014: Object009
+    100016: WoodDoor
+    100018: //RootNode
+    100020: WoodDoor_Part_1
+    100022: WoodDoor_Part_10
+    100024: WoodDoor_Part_2
+    100026: WoodDoor_Part_3
+    100028: WoodDoor_Part_4
+    100030: WoodDoor_Part_5
+    100032: WoodDoor_Part_6
+    100034: WoodDoor_Part_7
+    100036: WoodDoor_Part_8
+    400000: Handle
+    400002: Object003
+    400004: Object004
+    400006: Object005
+    400008: Object006
+    400010: Object007
+    400012: Object008
+    400014: Object009
+    400016: WoodDoor
+    400018: //RootNode
+    400020: WoodDoor_Part_1
+    400022: WoodDoor_Part_10
+    400024: WoodDoor_Part_2
+    400026: WoodDoor_Part_3
+    400028: WoodDoor_Part_4
+    400030: WoodDoor_Part_5
+    400032: WoodDoor_Part_6
+    400034: WoodDoor_Part_7
+    400036: WoodDoor_Part_8
+    2300000: Handle
+    2300002: Object003
+    2300004: Object004
+    2300006: Object005
+    2300008: Object006
+    2300010: Object007
+    2300012: Object008
+    2300014: Object009
+    2300016: WoodDoor_Part_1
+    2300018: WoodDoor_Part_10
+    2300020: WoodDoor_Part_2
+    2300022: WoodDoor_Part_3
+    2300024: WoodDoor_Part_4
+    2300026: WoodDoor_Part_5
+    2300028: WoodDoor_Part_6
+    2300030: WoodDoor_Part_7
+    2300032: WoodDoor_Part_8
+    3300000: Handle
+    3300002: Object003
+    3300004: Object004
+    3300006: Object005
+    3300008: Object006
+    3300010: Object007
+    3300012: Object008
+    3300014: Object009
+    3300016: WoodDoor_Part_1
+    3300018: WoodDoor_Part_10
+    3300020: WoodDoor_Part_2
+    3300022: WoodDoor_Part_3
+    3300024: WoodDoor_Part_4
+    3300026: WoodDoor_Part_5
+    3300028: WoodDoor_Part_6
+    3300030: WoodDoor_Part_7
+    3300032: WoodDoor_Part_8
+    4300000: Handle
+    4300002: Object003
+    4300004: WoodDoor_Part_1
+    4300006: WoodDoor_Part_2
+    4300008: WoodDoor_Part_3
+    4300010: WoodDoor_Part_4
+    4300012: WoodDoor_Part_5
+    4300014: WoodDoor_Part_6
+    4300016: WoodDoor_Part_7
+    4300018: WoodDoor_Part_8
+    4300020: WoodDoor_Part_10
+    4300022: Object004
+    4300024: Object005
+    4300026: Object006
+    4300028: Object007
+    4300030: Object008
+    4300032: Object009
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

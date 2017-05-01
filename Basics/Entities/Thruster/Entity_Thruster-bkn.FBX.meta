@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 2ec481306386ae54fbcfd8cd1269a626
+timeCreated: 1447997355
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object001
+    100004: Object002
+    100006: Object003
+    100008: Object004
+    100010: Thruster_Part_1
+    100012: Thruster_Part_2
+    100014: Thruster_Part_3
+    100016: Thruster_Part_4
+    100018: Thruster_Part_5
+    100020: Thruster_Part_6
+    100022: ThrusterBase
+    400000: //RootNode
+    400002: Object001
+    400004: Object002
+    400006: Object003
+    400008: Object004
+    400010: Thruster_Part_1
+    400012: Thruster_Part_2
+    400014: Thruster_Part_3
+    400016: Thruster_Part_4
+    400018: Thruster_Part_5
+    400020: Thruster_Part_6
+    400022: ThrusterBase
+    2300000: Object001
+    2300002: Object002
+    2300004: Object003
+    2300006: Object004
+    2300008: Thruster_Part_1
+    2300010: Thruster_Part_2
+    2300012: Thruster_Part_3
+    2300014: Thruster_Part_4
+    2300016: Thruster_Part_5
+    2300018: Thruster_Part_6
+    2300020: ThrusterBase
+    3300000: Object001
+    3300002: Object002
+    3300004: Object003
+    3300006: Object004
+    3300008: Thruster_Part_1
+    3300010: Thruster_Part_2
+    3300012: Thruster_Part_3
+    3300014: Thruster_Part_4
+    3300016: Thruster_Part_5
+    3300018: Thruster_Part_6
+    3300020: ThrusterBase
+    4300000: Object001
+    4300002: Object002
+    4300004: Object003
+    4300006: Object004
+    4300008: Thruster_Part_1
+    4300010: Thruster_Part_2
+    4300012: Thruster_Part_3
+    4300014: Thruster_Part_4
+    4300016: Thruster_Part_5
+    4300018: Thruster_Part_6
+    4300020: ThrusterBase
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -646,12 +646,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e7bb61e720ce0b42afb84b9a2abbeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisplayName: PM-40_Variant2
+  DisplayName: PM-40
   Description: 
   Hidden: 0
   Primitive: 0
   DefaultConnectionType: 0
-  CustomCategoryName: 
+  CustomCategoryName: MyMod
   EntityCategoryName: Custom
   Scaled: {fileID: 0}
   ScaleBounds: {fileID: 0}
@@ -714,7 +714,7 @@ MonoBehaviour:
   NoEditModeDisableColoring: 0
   EditmodeWorldIcon: 0
   Tags: []
-  SpriteIcon: {fileID: 0}
+  SpriteIcon: {fileID: 21300000, guid: d246bb45c377364419b8201ee8c0f586, type: 3}
   UIIndex: 0
   IconSetting: 0
   IconBackgroundColor: {r: 0, g: 0, b: 0, a: 0}

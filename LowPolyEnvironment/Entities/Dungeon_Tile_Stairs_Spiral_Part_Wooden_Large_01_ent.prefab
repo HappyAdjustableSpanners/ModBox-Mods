@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010934923546}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010934923546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013978492022}
+  - 114: {fileID: 114000012984135318}
+  m_Layer: 0
+  m_Name: Dungeon_Tile_Stairs_Spiral_Part_Wooden_Large_01_ent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011041179662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011175909650}
+  m_Layer: 0
+  m_Name: Scaled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012890261600
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011209666840}
+  m_Layer: 0
+  m_Name: Dungeon_Tile_Stairs_Spiral_Part_Wooden_Large_01(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013646650902
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012088240160}
+  - 33: {fileID: 33000013501743866}
+  - 23: {fileID: 23000010959487652}
+  - 64: {fileID: 64000012105961022}
+  m_Layer: 0
+  m_Name: Dungeon_Tile_Stairs_Spiral_Part_Wooden_Large_01 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011175909650
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011041179662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4000011209666840}
+  m_Father: {fileID: 4000013978492022}
+  m_RootOrder: 0
+--- !u!4 &4000011209666840
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012890261600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0316579, y: -0.38194442, z: 1.0359485}
+  m_LocalScale: {x: 0.19685039, y: 0.19685039, z: 0.19685039}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4000012088240160}
+  m_Father: {fileID: 4000011175909650}
+  m_RootOrder: 0
+--- !u!4 &4000012088240160
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013646650902}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000011209666840}
+  m_RootOrder: 0
+--- !u!4 &4000013978492022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010934923546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4000011175909650}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &23000010959487652
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013646650902}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5700acc13fcc9c84da09c80a7d291eaa, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33000013501743866
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013646650902}
+  m_Mesh: {fileID: 4300002, guid: e1323d046e8fdfe4c9e74d0a9d4e8fd8, type: 3}
+--- !u!64 &64000012105961022
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013646650902}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300002, guid: e1323d046e8fdfe4c9e74d0a9d4e8fd8, type: 3}
+--- !u!114 &114000012984135318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010934923546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7bb61e720ce0b42afb84b9a2abbeaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisplayName: Dungeon Spiral Stairs Wooden
+  Description: 
+  Hidden: 0
+  Primitive: 0
+  DefaultConnectionType: 0
+  CustomCategoryName: Low Poly Environment
+  EntityCategoryName: Custom
+  Scaled: {fileID: 0}
+  ScaleBounds: {fileID: 0}
+  DefaultScale: {x: 1, y: 1, z: 1}
+  NoScaling: 0
+  YOnlyScaling: 0
+  XOnlyScaling: 0
+  NoColoring: 0
+  NoRotation: 0
+  YOnlyRotation: 0
+  AlwaysKinematic: 1
+  AutoScaleToPlayerSize: 0
+  MaxScale: 0
+  MinScale: 0
+  IsAbstractEntity: 0
+  AbstractEntityDontScaleCollider: 0
+  ConnectToAnything: 0
+  IgnoreAllConnections: 0
+  NoAudioSourceEditModeDisable: 0
+  NoAnimatorEditModeDisable: 0
+  NoMonobehaviourEditModeDisable: 0
+  ModboxPhysicsMaterial: 
+  PhysicsSoundType: 
+  PlayModeActive: []
+  PlayModeDeactive: []
+  ContinuousDynamic: 0
+  BreakParticleSize: {x: 0, y: 0, z: 0}
+  DestroyedPrefab: {fileID: 0}
+  ActivateAndDisconnectOnDestroyed: []
+  DisconnectAndAddRigidbodyOnDestroyed: []
+  UseShatterToolkit: 0
+  ShatterToolkitOnlyShatter: {fileID: 0}
+  DontCreateBodyScript: 0
+  MassMultiply: 1
+  BodyIdentityRotation: 0
+  ColliderForMassCalculation: {fileID: 0}
+  AlwaysSpringGrab: 0
+  SpringGrabSetForce: 0
+  MaxGrabDistance: 0
+  PlaymodeMenuSpawnRotation: {x: 0, y: 0, z: 0}
+  NoPhysicsSound: 0
+  NoPlaymodeSandboxSpawning: 0
+  IgnoreStickyColliders: 0
+  NoJointRecreateIfOnlyEntity: 0
+  KeepOriginalPhysicsMaterials: 0
+  NoScalingParticles: 0
+  ParticleScaleMultiply: 1
+  DestroyedPrefabNoPieceCollide: 0
+  OnlyAllowGrabbingAt: {fileID: 0}
+  EntGroup: 0
+  EntChild: 0
+  ChildSetPosition: 0
+  BodyJoinChildren: 0
+  FreezeEntity: {fileID: 0}
+  FreezeChildEntities: 0
+  AllowChildWiring: 0
+  InHand1: {fileID: 0}
+  InHand2: {fileID: 0}
+  IgnoreColoring: []
+  NoEditModeDisableColoring: 0
+  EditmodeWorldIcon: 0
+  Tags: []
+  SpriteIcon: {fileID: 21300000, guid: 503a3b96009070a478bd7af570447605, type: 3}
+  UIIndex: 0
+  IconSetting: 0
+  IconBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+  IconColour: {r: 0, g: 0, b: 0, a: 0}
+  ImageRotationOffset: {x: 0, y: 0, z: 0}
+  ShowNameInEntList: 0
+  IconStartParticleEffects: 0
+  IconTakeScreenDelay: 0
+  KeepRigidBodiesAndNoConnect: 0
+  MainRigidbody: {fileID: 0}
+  ScaleRigidbodyMass: 0
+  KeepRigidbodyResetJoints: 0
+  TestRemove: 0
+  TestBreak: 0
+  TestBreakPause: 0
+  Version: 1
+  VersionChanges: []
+  SavedData:
+    ID: 0
+    PrefabID: Dungeon_Tile_Stairs_Spiral_Part_Wooden_Large_01_ent
+    Childname: 
+    FromMod: lowpolyenvironment
+    Version: 1
+    SetPosition: {x: 0, y: 0, z: 0}
+    SetRotation: {x: 0, y: 0, z: 0, w: 0}
+    SetScale: {x: 0, y: 0, z: 0}
+    RotationSnap: 0
+    SnappedRotation: {x: 0, y: 0, z: 0, w: 0}
+    TintColor: 0
+    ReplaceColor: 0
+    SavedColor: {r: 1, g: 1, b: 1, a: 1}
+    Colliding: []
+    GameMaterial: 
+    GameMaterialMod: 
+    GridSnap: 0
+    NoEditModePhysics: 0
+    ChildrenEntities: []
+    ChildrenEntitiesJson: []
+    InGround: 0
+    SetStatic: 0
+    AutoConnectOff: 1
+    Locked: 0
+    EntTypesSavedDataXML: []
+    EntTypesSavedDataJson: []
+    EntTypesSavedDataJsonTypes: []
+    MeshVertices: []
+    ModifierPrefabs: []
+    ModifierScripts: []
+    AISystem: 
+    UserGroupID: 0
+    HeldEntityID: 0
+    HeldEntityIDTypeID: 0
+    AnimatorData: []
+  AllowMeshEditing: 0
+  VertexCombineDistance: 0
+  SnapScaleToGrid: 0
+  WaitFrameForPlaymodeAfter: 0
+  ReplaceMissingEntities: []
+  GetVolumeFromBounds: 0
+  IgnoreEntityErrors: 0
+  VolumeCalculated: 326.3123
+  LastVolumeCalculatedName: Dungeon_Tile_Stairs_Spiral_Part_Wooden_Large_01_ent
+  ColorTextUI: 0

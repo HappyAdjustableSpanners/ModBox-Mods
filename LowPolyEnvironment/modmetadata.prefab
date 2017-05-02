@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010640894542}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010640894542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013186668342}
+  - 114: {fileID: 114000013898513978}
+  m_Layer: 0
+  m_Name: modmetadata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013186668342
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010640894542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000013898513978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010640894542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36939c46eb2fab74f82bef1aee41cf6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModMetaData:
+    ModName: low poly environment
+    ModFullName: Low Poly Environment
+    Version: 1
+    HasScripting: 0
+    BreakCompatibilityVersion: 0
+    Desc: A variety of low poly environment assets.
+    Icon: {fileID: 2800000, guid: 4e4864c67c86796488de515e53ddea73, type: 3}
+    InstantiateGameObjects: []
+    ModTypes: 08000000
+    EntCategories: []
+    EnvironmentOptions: []
+    IsCoreMod: 0
+    MainModUIWeight: 0
+    ForCoreMods: []
+    BuildNewUIWeight: 0
+    WorkshopVisiblity: 2
+    Authors: []
+    IncludeSource: 0
+    PublishedFileId: 0
+    BuildUncompressed: 0
+    IgnoreDirectories: []
+    IgnoreAllSubdirectories: 0
+    LoadAllFiles: 1
+    InDevelopment: 0
+    BreakAllModsCompatibilityVersion: 0.24
+    ModboxVersion: 0.501
+    ModboxSDKVersion: 72
+    DLLMode: 0
+    ScriptsRenamed: 0
+    OldScriptsMetaData: []
+    Paths_Entities:
+    - assets/mods/lowpolyenvironment/entities/barrel_sealed_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/bluff_grass_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/bone_ribcage_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/boulder_stone_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/bridge_broken_piece_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/bridge_stone_large_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/bridge_timber_small_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/bush_large_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/bush_small_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/cactus_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/cactus_13_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/candle_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/casket_timber_lid_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/casket_timber_open_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/castle_building_03_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/castle_spire_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/cave_dirt_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/cloud_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/cloud_03_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/crate_sealed_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/crystal_light_blue_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/dungeon_tile_stairs_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/dungeon_tile_stairs_spiral_part_large_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/dungeon_tile_stairs_spiral_part_wooden_large_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/farm_hutch_timber_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/fence_timber_large_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/fence_timber_small_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/fence_timber_small_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/grass_blade_small_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/grass_patch_square_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/hill_dirt_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/hill_grass_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/lamp_post_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/mountain_grass_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/mountain_volcano_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/mushroom_red_05_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/mushroom_tall_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/pagoda_ornamental_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/plant_bird_of_paradise_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/plant_brush_03_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/plant_brush_04_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/plant_corn_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/plant_fern_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/plant_flower_red_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_arch_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_chunk_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_chunk_03_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_large_flat_dirt_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_large_tall_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_medium_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_medium_dirt_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/rock_medium_moss_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/scifi_console_white_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/scifi_fan_grey_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/scifi_tile_white_ladder_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/sign_wooden_blank_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tombstone_enscribed_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/treasure_chest_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_asian_cherry_blossom_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_asian_shaped_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_bamboo_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_common_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_conifer_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_dead_02_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_generic_autumn_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_generic_spring_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_generic_winter_snow_capped_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_palm_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_pine_03_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_pine_04_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_pine_autumn_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/tree_stump_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/uneven_ground_dirt_01_ent.prefab
+    - assets/mods/lowpolyenvironment/entities/well_01_ent.prefab
+    Paths_EntityNames:
+    - Barrel_Sealed_01_ent
+    - Bluff_Grass_01_ent
+    - Bone_Ribcage_02_ent
+    - Boulder_Stone_01_ent
+    - Bridge_Broken_Piece_01_ent
+    - Bridge_Stone_Large_01_ent
+    - Bridge_Timber_Small_01_ent
+    - Bush_Large_01_ent
+    - Bush_Small_02_ent
+    - Cactus_01_ent
+    - Cactus_13_ent
+    - Candle_01_ent
+    - Casket_Timber_Lid_01_ent
+    - Casket_Timber_Open_01_ent
+    - Castle_Building_03_ent
+    - Castle_Spire_01_ent
+    - Cave_Dirt_01_ent
+    - Cloud_02_ent
+    - Cloud_03_ent
+    - Crate_Sealed_01_ent
+    - Crystal_Light_Blue_01_ent
+    - Dungeon_Tile_Stairs_01_ent
+    - Dungeon_Tile_Stairs_Spiral_Part_Large_01_ent
+    - Dungeon_Tile_Stairs_Spiral_Part_Wooden_Large_01_ent
+    - Farm_Hutch_Timber_01_ent
+    - Fence_Timber_Large_02_ent
+    - Fence_Timber_Small_01_ent
+    - Fence_Timber_Small_02_ent
+    - Grass_Blade_Small_01_ent
+    - Grass_Patch_Square_01_ent
+    - Hill_Dirt_01_ent
+    - Hill_Grass_01_ent
+    - Lamp_Post_01_ent
+    - Mountain_Grass_01_ent
+    - Mountain_Volcano_01_ent
+    - Mushroom_Red_05_ent
+    - Mushroom_Tall_01_ent
+    - Pagoda_Ornamental_02_ent
+    - Plant_Bird_of_Paradise_01_ent
+    - Plant_Brush_03_ent
+    - Plant_Brush_04_ent
+    - Plant_Corn_01_ent
+    - Plant_Fern_01_ent
+    - Plant_Flower_Red_01_ent
+    - Rock_Arch_01_ent
+    - Rock_Chunk_01_ent
+    - Rock_Chunk_03_ent
+    - Rock_Large_Flat_Dirt_01_ent
+    - Rock_Large_Tall_01_ent
+    - Rock_Medium_02_ent
+    - Rock_Medium_Dirt_02_ent
+    - Rock_Medium_Moss_02_ent
+    - SciFi_Console_White_01_ent
+    - SciFi_Fan_Grey_01_ent
+    - SciFi_Tile_White_Ladder_01_ent
+    - Sign_Wooden_Blank_01_ent
+    - Tombstone_Enscribed_01_ent
+    - Treasure_Chest_01_ent
+    - Tree_Asian_Cherry_Blossom_01_ent
+    - Tree_Asian_Shaped_01_ent
+    - Tree_Bamboo_01_ent
+    - Tree_Common_01_ent
+    - Tree_Conifer_01_ent
+    - Tree_Dead_02_ent
+    - Tree_Generic_Autumn_01_ent
+    - Tree_Generic_Spring_01_ent
+    - Tree_Generic_Winter_Snow_Capped_01_ent
+    - Tree_Palm_01_ent
+    - Tree_Pine_03_ent
+    - Tree_Pine_04_ent
+    - Tree_Pine_Autumn_01_ent
+    - Tree_Stump_01_ent
+    - Uneven_Ground_Dirt_01_ent
+    - Well_01_ent
+    Paths_LoadAtStart: []
+    EntityCount: 74
+    ToolCount: 0
+    MaterialCount: 0
+    ModelCount: 0

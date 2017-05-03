@@ -279,7 +279,7 @@ MonoBehaviour:
     ID: 0
     PrefabID: Fence_Timber_Small_01_ent
     Childname: 
-    FromMod: lowpolyenvironment
+    FromMod: low poly environment
     Version: 1
     SetPosition: {x: 0, y: 0, z: 0}
     SetRotation: {x: 0, y: 0, z: 0, w: 0}

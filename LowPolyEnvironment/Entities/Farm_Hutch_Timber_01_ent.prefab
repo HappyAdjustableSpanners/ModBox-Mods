@@ -208,7 +208,7 @@ MonoBehaviour:
   NoColoring: 0
   NoRotation: 0
   YOnlyRotation: 0
-  AlwaysKinematic: 1
+  AlwaysKinematic: 0
   AutoScaleToPlayerSize: 0
   MaxScale: 0
   MinScale: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
     ID: 0
     PrefabID: Farm_Hutch_Timber_01_ent
     Childname: 
-    FromMod: lowpolyenvironment
+    FromMod: low poly environment
     Version: 1
     SetPosition: {x: 0, y: 0, z: 0}
     SetRotation: {x: 0, y: 0, z: 0, w: 0}

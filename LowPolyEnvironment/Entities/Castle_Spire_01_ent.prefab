@@ -201,7 +201,7 @@ MonoBehaviour:
   EntityCategoryName: Custom
   Scaled: {fileID: 0}
   ScaleBounds: {fileID: 0}
-  DefaultScale: {x: 1, y: 1, z: 1}
+  DefaultScale: {x: 0.05, y: 0.05, z: 0.05}
   NoScaling: 0
   YOnlyScaling: 0
   XOnlyScaling: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
     ID: 0
     PrefabID: Castle_Spire_01_ent
     Childname: 
-    FromMod: lowpolyenvironment
+    FromMod: low poly environment
     Version: 1
     SetPosition: {x: 0, y: 0, z: 0}
     SetRotation: {x: 0, y: 0, z: 0, w: 0}

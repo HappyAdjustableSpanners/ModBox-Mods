@@ -47,7 +47,8 @@ MonoBehaviour:
   Hidden: 0
   Primitive: 0
   DefaultConnectionType: 0
-  EntityCategoryName: 
+  CustomCategoryName: 
+  EntityCategoryName: Custom
   Scaled: {fileID: 1000013148956336}
   ScaleBounds: {fileID: 0}
   DefaultScale: {x: 0.6, y: 0.6, z: 0.6}
@@ -92,7 +93,6 @@ MonoBehaviour:
   IgnoreStickyColliders: 0
   NoJointRecreateIfOnlyEntity: 0
   KeepOriginalPhysicsMaterials: 0
-  AStarPathfinding: 0
   NoScalingParticles: 0
   ParticleScaleMultiply: 1
   DestroyedPrefabNoPieceCollide: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
     ID: 0
     PrefabID: BarrelExplosiveNuclear
     Childname: 
-    FromMod: scifi_arsenal
+    FromMod: rockets
     Version: 1
     SetPosition: {x: 0, y: 0, z: 0}
     SetRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -146,13 +146,12 @@ MonoBehaviour:
     GameMaterial: 
     GameMaterialMod: 
     GridSnap: 0
-    SurfaceSnap: 0
     NoEditModePhysics: 0
     ChildrenEntities: []
     ChildrenEntitiesJson: []
     InGround: 0
     SetStatic: 0
-    AutoConnectOff: 0
+    AutoConnectOff: 1
     Locked: 0
     EntTypesSavedDataXML: []
     EntTypesSavedDataJson: []
@@ -162,7 +161,8 @@ MonoBehaviour:
     ModifierScripts: []
     AISystem: 
     UserGroupID: 0
-    PlacedInsideEntityID: 0
+    HeldEntityID: 0
+    HeldEntityIDTypeID: 0
     AnimatorData: []
   AllowMeshEditing: 0
   VertexCombineDistance: 0
@@ -467,6 +467,7 @@ MonoBehaviour:
   DamageSystemSavedData:
     TakeDamage: 1
     Health: 10
+    HealthBar: 1
   PainSounds: []
   DeathSounds: []
   IgnoreDamageOnColliders: []
@@ -475,7 +476,7 @@ MonoBehaviour:
   MaterialHitEffects: 0
   EmmissiveHitTexture: {fileID: 0}
   DontDestroyOnDeath: 0
-  ShowHealthBar: 0
+  HealthBarParent: {fileID: 0}
   EffectOnlyDamage: 0
   NoClientSideDeath: 0
   LastDamagedCollider: {fileID: 0}

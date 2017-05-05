@@ -72,7 +72,7 @@ MonoBehaviour:
     MainModUIWeight: 0
     ForCoreMods: []
     BuildNewUIWeight: 0
-    WorkshopVisiblity: 2
+    WorkshopVisiblity: 0
     Authors: []
     IncludeSource: 0
     PublishedFileId: 917913902

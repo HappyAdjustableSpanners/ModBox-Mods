@@ -57,17 +57,22 @@ MonoBehaviour:
     Version: 1
     HasScripting: 0
     BreakCompatibilityVersion: 0
-    Desc: 
-    Icon: {fileID: 0}
+    Desc: Explosive Rockets!
+    Icon: {fileID: 2800000, guid: 8061ae456dbd46a4ca7aae000842ed72, type: 3}
     InstantiateGameObjects: []
-    ModTypes: 
-    EntCategories: []
+    ModTypes: 00000000
+    EntCategories:
+    - Name: Rockets
+      Icon: {fileID: 21300000, guid: fc64fc061e47fc240bced1436c2ae38c, type: 3}
+      UIWeight: 0
+      Primitives: 0
+      SandboxSpawn: 1
     EnvironmentOptions: []
     IsCoreMod: 0
     MainModUIWeight: 0
     ForCoreMods: []
     BuildNewUIWeight: 0
-    WorkshopVisiblity: 0
+    WorkshopVisiblity: 2
     Authors: []
     IncludeSource: 0
     PublishedFileId: 0
@@ -76,16 +81,70 @@ MonoBehaviour:
     IgnoreAllSubdirectories: 0
     LoadAllFiles: 0
     InDevelopment: 0
-    BreakAllModsCompatibilityVersion: 0
-    ModboxVersion: 0
-    ModboxSDKVersion: 0
+    BreakAllModsCompatibilityVersion: 0.24
+    ModboxVersion: 0.501
+    ModboxSDKVersion: 101
     DLLMode: 0
     ScriptsRenamed: 0
     OldScriptsMetaData: []
-    Paths_Entities: []
-    Paths_EntityNames: []
+    Paths_Entities:
+    - assets/mods/rockets/entities/blue/rocket blue 2_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue 3_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue 4_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue 5_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue 6_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue 7_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue 8_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue 9_ent.prefab
+    - assets/mods/rockets/entities/blue/rocket blue_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 2_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 3_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 4_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 5_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 6_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 7_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 8_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green 9_ent.prefab
+    - assets/mods/rockets/entities/green/rocket green_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 2_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 3_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 4_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 5_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 6_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 7_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 8_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red 9_ent.prefab
+    - assets/mods/rockets/entities/red/rocket red_ent.prefab
+    Paths_EntityNames:
+    - Rocket Blue 2_ent
+    - Rocket Blue 3_ent
+    - Rocket Blue 4_ent
+    - Rocket Blue 5_ent
+    - Rocket Blue 6_ent
+    - Rocket Blue 7_ent
+    - Rocket Blue 8_ent
+    - Rocket Blue 9_ent
+    - Rocket Blue_ent
+    - Rocket Green 2_ent
+    - Rocket Green 3_ent
+    - Rocket Green 4_ent
+    - Rocket Green 5_ent
+    - Rocket Green 6_ent
+    - Rocket Green 7_ent
+    - Rocket Green 8_ent
+    - Rocket Green 9_ent
+    - Rocket Green_ent
+    - Rocket Red 2_ent
+    - Rocket Red 3_ent
+    - Rocket Red 4_ent
+    - Rocket Red 5_ent
+    - Rocket Red 6_ent
+    - Rocket Red 7_ent
+    - Rocket Red 8_ent
+    - Rocket Red 9_ent
+    - Rocket Red_ent
     Paths_LoadAtStart: []
-    EntityCount: 0
+    EntityCount: 27
     ToolCount: 0
     MaterialCount: 0
     ModelCount: 0

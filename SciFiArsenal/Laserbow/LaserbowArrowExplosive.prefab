@@ -311,6 +311,7 @@ MonoBehaviour:
   CutForceMinimumVelocity: 10
   Damage: 25
   DamageMinVelocity: 0.5
+  MinSelfVelocity: 0.2
   ScaleDamageBasedOnSpeed: 1
   DamageMaxVelocity: 5
   NextHitTime: 0.5
@@ -332,15 +333,14 @@ MonoBehaviour:
   Hidden: 1
   Primitive: 0
   DefaultConnectionType: 0
-  EntityCategoryName: 
+  CustomCategoryName: 
+  EntityCategoryName: Custom
   Scaled: {fileID: 1000010116219238}
   ScaleBounds: {fileID: 0}
   DefaultScale: {x: 0.25, y: 0.25, z: 0.25}
   NoScaling: 1
   YOnlyScaling: 0
   XOnlyScaling: 0
-  EditModePhysicsOff: 0
-  AutoConnectOff: 1
   NoColoring: 0
   NoRotation: 0
   YOnlyRotation: 0
@@ -379,7 +379,6 @@ MonoBehaviour:
   IgnoreStickyColliders: 1
   NoJointRecreateIfOnlyEntity: 0
   KeepOriginalPhysicsMaterials: 0
-  AStarPathfinding: 0
   NoScalingParticles: 0
   ParticleScaleMultiply: 1
   DestroyedPrefabNoPieceCollide: 0
@@ -434,7 +433,6 @@ MonoBehaviour:
     GameMaterial: 
     GameMaterialMod: 
     GridSnap: 0
-    SurfaceSnap: 0
     NoEditModePhysics: 0
     ChildrenEntities: []
     ChildrenEntitiesJson: []
@@ -450,7 +448,8 @@ MonoBehaviour:
     ModifierScripts: []
     AISystem: 
     UserGroupID: 0
-    PlacedInsideEntityID: 0
+    HeldEntityID: 0
+    HeldEntityIDTypeID: 0
     AnimatorData: []
   AllowMeshEditing: 0
   VertexCombineDistance: 0

@@ -530,15 +530,14 @@ MonoBehaviour:
   Hidden: 0
   Primitive: 0
   DefaultConnectionType: 1
-  EntityCategoryName: 
+  CustomCategoryName: 
+  EntityCategoryName: Custom
   Scaled: {fileID: 171980}
   ScaleBounds: {fileID: 0}
   DefaultScale: {x: 0.2, y: 0.2, z: 0.2}
   NoScaling: 0
   YOnlyScaling: 0
   XOnlyScaling: 1
-  EditModePhysicsOff: 0
-  AutoConnectOff: 0
   NoColoring: 0
   NoRotation: 0
   YOnlyRotation: 0
@@ -577,7 +576,6 @@ MonoBehaviour:
   IgnoreStickyColliders: 0
   NoJointRecreateIfOnlyEntity: 0
   KeepOriginalPhysicsMaterials: 1
-  AStarPathfinding: 0
   NoScalingParticles: 0
   ParticleScaleMultiply: 1
   DestroyedPrefabNoPieceCollide: 0
@@ -631,7 +629,6 @@ MonoBehaviour:
     GameMaterial: 
     GameMaterialMod: 
     GridSnap: 0
-    SurfaceSnap: 0
     NoEditModePhysics: 0
     ChildrenEntities: []
     ChildrenEntitiesJson: []
@@ -647,7 +644,8 @@ MonoBehaviour:
     ModifierScripts: []
     AISystem: 
     UserGroupID: 0
-    PlacedInsideEntityID: 0
+    HeldEntityID: 0
+    HeldEntityIDTypeID: 0
     AnimatorData: []
   AllowMeshEditing: 0
   VertexCombineDistance: 0

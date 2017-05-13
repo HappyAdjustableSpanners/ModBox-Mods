@@ -88,6 +88,7 @@ MonoBehaviour:
     ScriptsRenamed: 0
     OldScriptsMetaData: []
     Paths_Entities:
+    - assets/mods/rockets/entities/alien_ent.prefab
     - assets/mods/rockets/entities/blue/rocket blue 2_ent.prefab
     - assets/mods/rockets/entities/blue/rocket blue 3_ent.prefab
     - assets/mods/rockets/entities/blue/rocket blue 4_ent.prefab
@@ -116,6 +117,7 @@ MonoBehaviour:
     - assets/mods/rockets/entities/red/rocket red 9_ent.prefab
     - assets/mods/rockets/entities/red/rocket red_ent.prefab
     Paths_EntityNames:
+    - alien_ent
     - Rocket Blue 2_ent
     - Rocket Blue 3_ent
     - Rocket Blue 4_ent
@@ -144,7 +146,7 @@ MonoBehaviour:
     - Rocket Red 9_ent
     - Rocket Red_ent
     Paths_LoadAtStart: []
-    EntityCount: 27
+    EntityCount: 28
     ToolCount: 0
     MaterialCount: 0
     ModelCount: 0

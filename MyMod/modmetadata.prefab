@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000010757648386}
+  m_RootGameObject: {fileID: 1000012946605328}
   m_IsPrefabParent: 1
---- !u!1 &1000010757648386
+--- !u!1 &1000012946605328
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4000013784679532}
-  - 114: {fileID: 114000010989588548}
+  - 4: {fileID: 4000011775815542}
+  - 114: {fileID: 114000010422319354}
   m_Layer: 0
   m_Name: modmetadata
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000013784679532
+--- !u!4 &4000011775815542
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010757648386}
+  m_GameObject: {fileID: 1000012946605328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000010989588548
+--- !u!114 &114000010422319354
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010757648386}
+  m_GameObject: {fileID: 1000012946605328}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36939c46eb2fab74f82bef1aee41cf6a, type: 3}
@@ -57,35 +57,37 @@ MonoBehaviour:
     Version: 1
     HasScripting: 0
     BreakCompatibilityVersion: 0
-    Desc: 
-    Icon: {fileID: 0}
+    Desc: A tree mod.
+    Icon: {fileID: 2800000, guid: 783032704334195408e3f0e0f1ddd188, type: 3}
     InstantiateGameObjects: []
-    ModTypes: 
+    ModTypes: 00000000
     EntCategories: []
     EnvironmentOptions: []
     IsCoreMod: 0
     MainModUIWeight: 0
     ForCoreMods: []
     BuildNewUIWeight: 0
-    WorkshopVisiblity: 0
+    WorkshopVisiblity: 2
     Authors: []
     IncludeSource: 0
     PublishedFileId: 0
     BuildUncompressed: 0
     IgnoreDirectories: []
     IgnoreAllSubdirectories: 0
-    LoadAllFiles: 0
+    LoadAllFiles: 1
     InDevelopment: 0
-    BreakAllModsCompatibilityVersion: 0
-    ModboxVersion: 0
-    ModboxSDKVersion: 0
+    BreakAllModsCompatibilityVersion: 0.24
+    ModboxVersion: 0.501
+    ModboxSDKVersion: 101
     DLLMode: 0
     ScriptsRenamed: 0
     OldScriptsMetaData: []
-    Paths_Entities: []
-    Paths_EntityNames: []
+    Paths_Entities:
+    - assets/mods/mymod/entities/tree_ent.prefab
+    Paths_EntityNames:
+    - tree_ent
     Paths_LoadAtStart: []
-    EntityCount: 0
+    EntityCount: 1
     ToolCount: 0
     MaterialCount: 0
     ModelCount: 0

@@ -610,6 +610,7 @@ MonoBehaviour:
   Hidden: 0
   Primitive: 0
   DefaultConnectionType: 1
+  CustomCategoryName: 
   EntityCategoryName: 
   Scaled: {fileID: 1000010587313636}
   ScaleBounds: {fileID: 0}
@@ -617,8 +618,6 @@ MonoBehaviour:
   NoScaling: 0
   YOnlyScaling: 0
   XOnlyScaling: 0
-  EditModePhysicsOff: 0
-  AutoConnectOff: 0
   NoColoring: 0
   NoRotation: 0
   YOnlyRotation: 0
@@ -657,7 +656,6 @@ MonoBehaviour:
   IgnoreStickyColliders: 0
   NoJointRecreateIfOnlyEntity: 0
   KeepOriginalPhysicsMaterials: 0
-  AStarPathfinding: 0
   NoScalingParticles: 0
   ParticleScaleMultiply: 1
   DestroyedPrefabNoPieceCollide: 0
@@ -695,10 +693,10 @@ MonoBehaviour:
   VersionChanges: []
   SavedData:
     ID: 0
-    PrefabID: 
-    Childname: Base
+    PrefabID: TargetBody
+    Childname: 
     FromMod: 
-    Version: 0
+    Version: 1
     SetPosition: {x: 0, y: 0, z: 0}
     SetRotation: {x: 0, y: 0, z: 0, w: 0}
     SetScale: {x: 0, y: 0, z: 0}
@@ -711,7 +709,6 @@ MonoBehaviour:
     GameMaterial: 
     GameMaterialMod: 
     GridSnap: 0
-    SurfaceSnap: 0
     NoEditModePhysics: 0
     ChildrenEntities: []
     ChildrenEntitiesJson: []
@@ -727,7 +724,8 @@ MonoBehaviour:
     ModifierScripts: []
     AISystem: 
     UserGroupID: 0
-    PlacedInsideEntityID: 0
+    HeldEntityID: 0
+    HeldEntityIDTypeID: 0
     AnimatorData: []
   AllowMeshEditing: 0
   VertexCombineDistance: 0
@@ -755,6 +753,7 @@ MonoBehaviour:
   Hidden: 0
   Primitive: 0
   DefaultConnectionType: 0
+  CustomCategoryName: 
   EntityCategoryName: 
   Scaled: {fileID: 1000012398526180}
   ScaleBounds: {fileID: 0}
@@ -762,8 +761,6 @@ MonoBehaviour:
   NoScaling: 0
   YOnlyScaling: 0
   XOnlyScaling: 0
-  EditModePhysicsOff: 0
-  AutoConnectOff: 1
   NoColoring: 0
   NoRotation: 0
   YOnlyRotation: 0
@@ -802,7 +799,6 @@ MonoBehaviour:
   IgnoreStickyColliders: 0
   NoJointRecreateIfOnlyEntity: 0
   KeepOriginalPhysicsMaterials: 0
-  AStarPathfinding: 0
   NoScalingParticles: 0
   ParticleScaleMultiply: 1
   DestroyedPrefabNoPieceCollide: 0
@@ -841,10 +837,10 @@ MonoBehaviour:
   VersionChanges: []
   SavedData:
     ID: 0
-    PrefabID: 
-    Childname: Body
+    PrefabID: TargetBody
+    Childname: 
     FromMod: 
-    Version: 0
+    Version: 1
     SetPosition: {x: 0, y: 0, z: 0}
     SetRotation: {x: 0, y: 0, z: 0, w: 0}
     SetScale: {x: 0, y: 0, z: 0}
@@ -857,13 +853,12 @@ MonoBehaviour:
     GameMaterial: 
     GameMaterialMod: 
     GridSnap: 0
-    SurfaceSnap: 0
     NoEditModePhysics: 0
     ChildrenEntities: []
     ChildrenEntitiesJson: []
     InGround: 0
     SetStatic: 0
-    AutoConnectOff: 0
+    AutoConnectOff: 1
     Locked: 0
     EntTypesSavedDataXML: []
     EntTypesSavedDataJson: []
@@ -873,7 +868,8 @@ MonoBehaviour:
     ModifierScripts: []
     AISystem: 
     UserGroupID: 0
-    PlacedInsideEntityID: 0
+    HeldEntityID: 0
+    HeldEntityIDTypeID: 0
     AnimatorData: []
   AllowMeshEditing: 0
   VertexCombineDistance: 0
@@ -915,15 +911,14 @@ MonoBehaviour:
   Hidden: 0
   Primitive: 0
   DefaultConnectionType: 1
-  EntityCategoryName: 
+  CustomCategoryName: 
+  EntityCategoryName: Custom
   Scaled: {fileID: 1000013567278782}
   ScaleBounds: {fileID: 0}
   DefaultScale: {x: 0.8, y: 0.8, z: 0.8}
   NoScaling: 0
   YOnlyScaling: 0
   XOnlyScaling: 0
-  EditModePhysicsOff: 0
-  AutoConnectOff: 0
   NoColoring: 0
   NoRotation: 0
   YOnlyRotation: 0
@@ -962,7 +957,6 @@ MonoBehaviour:
   IgnoreStickyColliders: 0
   NoJointRecreateIfOnlyEntity: 0
   KeepOriginalPhysicsMaterials: 0
-  AStarPathfinding: 0
   NoScalingParticles: 0
   ParticleScaleMultiply: 1
   DestroyedPrefabNoPieceCollide: 0
@@ -1020,7 +1014,6 @@ MonoBehaviour:
     GameMaterial: 
     GameMaterialMod: 
     GridSnap: 0
-    SurfaceSnap: 0
     NoEditModePhysics: 0
     ChildrenEntities: []
     ChildrenEntitiesJson: []
@@ -1036,7 +1029,8 @@ MonoBehaviour:
     ModifierScripts: []
     AISystem: 
     UserGroupID: 0
-    PlacedInsideEntityID: 0
+    HeldEntityID: 0
+    HeldEntityIDTypeID: 0
     AnimatorData: []
   AllowMeshEditing: 0
   VertexCombineDistance: 0
